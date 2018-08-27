@@ -130,3 +130,5 @@ subprojects { project ->
 }
 
 defaultTasks ':clouddriver-web:bootRun'
+
+apply from: 'platforms.gradle'
